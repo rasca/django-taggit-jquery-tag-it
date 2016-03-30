@@ -22,4 +22,4 @@ def list_tags(request):
             name__istartswith=query).values_list('name', flat=True)
 
     tags = list(tags)
-    return HttpResponse(simplejson.dumps(tags), mimetype='text/javascript')
+    return HttpResponse(simplejson.dumps(tags), content_type='text/javascript')
