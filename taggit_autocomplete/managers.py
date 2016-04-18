@@ -3,7 +3,7 @@ from django.utils.translation import ugettext_lazy as _
 from taggit.forms import TagField
 from taggit.managers import TaggableManager as BaseTaggableManager
 
-from widgets import TagAutocomplete
+from taggit_autocomplete.widgets import TagAutocomplete
 
 
 class TaggableManager(BaseTaggableManager):
