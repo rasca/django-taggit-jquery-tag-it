@@ -1,0 +1,5 @@
+*.egg-info
+*.pyc
+pip-log.txt
+*~
+*.DS_Store
